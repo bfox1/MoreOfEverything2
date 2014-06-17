@@ -1,0 +1,36 @@
+tile.ValeriusBlock.name=Valerius Block
+tile.PatriciusBlock.name=Patricius Block
+tile.SatanBlock.name=Satan Block
+tile.PatriciusOre.name=Patricius Ore
+tile.ValeriusOre.name=Valerius Ore
+
+tile.Granite.name=Granite
+tile.GraniteSmooth.name=Smooth Granite
+
+
+item.ValeriusGem.name=Valerius Gem
+item.PatriciusGem.name=Patricius Gem
+item.SatanGem.name=Satan Gem
+item.DestabilizedIngot.name=Destabilized Ingot
+item.HeavenGem.name=Heaven Gem
+item.PoweredGem.name=Powered Gem
+item.SacredCrystal.name=Sacred Crystal
+item.SacredPowerCrystal.name=Sacred Powered Crystal
+item.TaintedGem.name=Tainted Gem
+item.SatanPoweredIngot.name=Satan Powered Gem
+
+item.SatanPickaxe.name=Satan Pickaxe
+item.SatanAxe.name=Satan Axe
+item.SatanShovel.name=Satan Shovel
+
+item.PatriciusPickaxe.name=Patricius Pickaxe
+item.PatriciusAxe.name=Patricius Axe
+item.PatriciusShovel.name=Patricus Shovel
+
+item.ValeriusPickaxe.name=Valerius Pickaxe
+item.ValeriusAxe.name=Valerius Axe
+item.ValeriusShovel.name=Valerius Shovel
+
+
+itemGroup.MOFE2=MOFE2
+itemGroup.MOFE2Tools=MOFE2 Tools

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mofe2",
+  "name": "More Of Everything 2",
+  "description": "A Mod that adds will add a little more of everything.",
+  "version": "",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Bfox1"],
+  "credits": "The Forge and FML guys, For making Modding Easier and possible",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
