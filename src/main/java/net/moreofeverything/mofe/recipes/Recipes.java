@@ -7,6 +7,7 @@ import net.minecraft.item.ItemStack;
 import net.moreofeverything.mofe.mofeblock.BlockM;
 import net.moreofeverything.mofe.mofeitem.ItemM;
 import cpw.mods.fml.common.registry.GameRegistry;
+import thaumcraft.api.ThaumcraftApi;
 
 public class Recipes {
 	
@@ -160,6 +161,7 @@ private static Item[] items =
 	{
 
 		recipeBlock();
+		ThaumcraftApi.addSmeltingBonus("PatriciusOre", new ItemStack(ItemM.valeriusGem,0,0));
 		
 	}
 	

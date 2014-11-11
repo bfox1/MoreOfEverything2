@@ -1,5 +1,6 @@
 package net.moreofeverything.mofe.mofeblock;
 
+import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.moreofeverything.mofe.help.ReferenceHelper;
 
@@ -26,14 +27,15 @@ public class BlockM {
     
     public static Block sacredCrystalBlock;
     
-
+    public static Block GemSmelteryIdle;
+    public static Block GemSmelteryActive;
 	
 	public static void init()
 	{
 		valeriusOre = new ValeriusOre();
 		patriciusOre = new PatriciusOre();
 
-		heavenOre = new HeavenOre();
+		heavenOre = new HeavenOre(false);
 		
 		valeriusBlock = new ValeriusBlock();
 		patriciusBlock = new PatriciusBlock();
@@ -41,6 +43,8 @@ public class BlockM {
 		
 		granite = new Granite();
 		graniteSmooth = new GraniteSmooth();
+		
+
 	}
 	
 	public static void registerInit()
@@ -55,6 +59,7 @@ public class BlockM {
 		
 		ReferenceHelper.registerBlock(granite);
 		ReferenceHelper.registerBlock(graniteSmooth);
+
 	}
 
 }
